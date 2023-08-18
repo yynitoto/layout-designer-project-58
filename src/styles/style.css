@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans_SemiCondensed-Regular.woff2")format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neucha";
+    src: url("../fonts/Neucha-Regular.woff2")format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+:root {
+    --white: #fff;
+    --translucent-white: #d7ccc0;
+    --light: #f5f4f0;
+    --basic: #fe8a02;
+    --basic-dark: #42413c;
+    --dark: #2a2626;
+    --translucent-dark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+
+    --main-font: "Open Sans"; 
+    --heading-font: "Neucha";
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 1.6em;
+    color: var(--dark);
+    background-color: var(--white);
+}
+
+.page-header {
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+    width: 1110px;
+}
+
+.intro-title {
+    font-family: var(--heading-font);
+    font-size: 72px;
+    line-height: 1.2em;
+}
+
+.main-index {
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+    width: 1110px;
+}
+
+.video-title {
+    font-family: var(--heading-font);
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.list-title {
+    font-family: var(--heading-font);
+    font-size: 34px;
+    line-height: 1.2em;
+}
+
+.navigation-link {
+    font-family: var(--heading-font);
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--dark);
+}
+
+.navigation-card {
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.navigation-title {
+    font-family: var(--heading-font);
+    color: var(--basic);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.block-title {
+    font-family: var(--heading-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.block-theme {
+    font-family: var(--heading-font);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.page-footer {
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+    width: 1110px;
+}
+
+.newsletter-form {
+    width: 1110px;
+    height: 190px;
+    background-color: var(--basic-dark);
+    color: var(--white);
+}
+
+.agree-link {
+    color: var(--white);
+}
+.source-link {
+    color: var(--blue);
+}
+.hexlet-link {
+    color: var(--blue);
+}
